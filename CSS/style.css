@@ -1,0 +1,148 @@
+/* googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: purple;
+}
+.jumbotron {
+    background-image: url("/IMG/walpeper.jpeg");
+}
+
+.swiper {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .swiper-slide {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .feature-desc {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  /* button Whasapp */
+.buttonWa {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #25D366;
+    padding: 5px;
+    position: relative;
+    width: 8em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .buttonWa p {
+    position: absolute;
+    left: 1.15em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #25D366;
+    bottom: 0.3em;
+  }
+  
+  .buttonWa svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .buttonWa:hover p {
+    left: 0.5em;
+    color: #fff
+  }
+  
+  .buttonWa:hover svg {
+    opacity: 1;
+  }
+  
+  .buttonWa:hover {
+    background-color: #25D366;
+  }
+  /* footer */
+
+  .footer {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5a3e85;
+  }
+  
+  .footer-desc {
+    font-size: 0.95rem;
+    color: #666;
+    max-width: 400px;
+  }
+  
+  .footer-heading {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .footer-links a {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #5a3e85;
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    background-color: #5a3e85;
+    color: #fff;
+    font-size: 0.85rem;
+  }
+  
