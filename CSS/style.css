@@ -18,6 +18,9 @@ body {
     color: purple;
 }
 
+.jumbotron {
+    background-image: url('https://axele201.github.io/FEMANTA/IMG/walpeper.jpeg');
+}
 .swiper {
     width: 100%;
     padding: 20px 0;
